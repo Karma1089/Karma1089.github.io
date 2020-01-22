@@ -1,0 +1,20 @@
+# Site settings
+author: honest-exception-7565
+title: 
+header-img: img/home-bg.png
+email: karma24butts@gmail.com
+copyright_name: honest-exception-7565
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Karma1089
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
